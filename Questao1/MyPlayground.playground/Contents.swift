@@ -23,7 +23,7 @@ func isFibonacciNumber(_ number: Int) -> Bool {
         return fibonacciNumbers.contains(number)
 }
 
-let numbersToCheck: [Int] = [3, 5, 7, 16, 19, 21, 27]
+let numbersToCheck: [Int] = [3, 5, 7, 9, 13, 19, 21, 27]
 
 for number in numbersToCheck {
     if isFibonacciNumber(number) {
@@ -31,7 +31,6 @@ for number in numbersToCheck {
     } else {
         print("\(number) não pertence à sequência de Fibonacci.")
     }
-
 }
 
 
